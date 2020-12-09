@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Tuzosdaniel12/Employee-Generator#readme",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3"
   }
 }
