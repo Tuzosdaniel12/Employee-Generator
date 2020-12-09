@@ -52,7 +52,7 @@ Each team member should display the following in no particular order:
 
 ## Test
 
-[![image](images/examples.png)](coming soon)
+[![image](images/example.png)](coming soon)
 
 ## Credits
 
