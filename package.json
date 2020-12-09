@@ -1,0 +1,27 @@
+{
+  "name": "Employee-Generator",
+  "version": "1.0.0",
+  "description": "Employee Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuzosdaniel12/Employee-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuzosdaniel12/Employee-Generator/issues"
+  },
+  "homepage": "https://github.com/Tuzosdaniel12/Employee-Generator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
