@@ -73,8 +73,19 @@ const askForAnotherEmployee = (listOfEmployees, addEmployee) =>{
         employeeCreation();
     } else {
         console.log(listOfEmployees)  
-        render(listOfEmployees);
+        const html = render(listOfEmployees);
+        writeFile(html)
     }
+}
+//crete file
+const writeFile = (html) => {
+    
+    try{
+        fs.writeFileSync(path.resolve(outputPath), html);    
+        console.log('Success')
+    }catch(err){
+        console.error(err)
+    } 
 }
 
 
