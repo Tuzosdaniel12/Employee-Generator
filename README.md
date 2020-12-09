@@ -17,7 +17,7 @@ This app generates profiles of software engineers based on the information provi
 
 ## Installations
 
-`npm install` ` npm i inquirer` npm i jest`
+`npm install` ` npm i inquirer` `npm i jest`
 
 ## Contributing
 
@@ -34,7 +34,8 @@ so that I have quick access to emails and GitHub profiles
 ## Acceptance-Criteria
 
 ```
-The project must generate a `team.html` page in the `output` directory, that displays a nicely formatted team roster. Each team member should display the following in no particular order:
+The project must generate a `team.html` page in the `output` directory, that displays a nicely formatted team roster. 
+Each team member should display the following in no particular order:
 
   Name
 
