@@ -51,8 +51,11 @@ Each team member should display the following in no particular order:
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Test
+* Watch test video click image below
+[![image](images/example.png)](https://drive.google.com/file/d/1XJJsOAJ56tHE-ss3BIlLG15_c72Ck0dE/view)
 
-[![image](images/example.png)](coming soon)
+* Image example of outcome
+![image](images/My-Team.png)
 
 ## Credits
 
