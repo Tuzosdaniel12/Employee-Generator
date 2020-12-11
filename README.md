@@ -12,8 +12,7 @@
 
 ## Description
 
-This app generates profiles of software engineers based on the information provided by managers
- 
+This app generates profiles of software engineer. The terminal will pront manager for employee credintials; Role, Name, ID, Email, and a special attribute based on the employee role.After the program will collect all the data and create a nicely formats html file that can be shared on the web. is 
 
 ## Installations
 
