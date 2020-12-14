@@ -53,8 +53,8 @@ Each team member should display the following in no particular order:
 * Watch test video click image below
 [![image](images/example.png)](https://drive.google.com/file/d/1wvEYY6xaL8oWZyGNVo44bQ3Mr6vGmR27/preview)
 
-* Image example of outcome
-![image](images/My-Team.png)
+* Deployed app click the image
+[![image](images/My-Team.png)](https://serene-hamlet-18402.herokuapp.com/)
 
 ## Credits
 
