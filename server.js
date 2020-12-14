@@ -1,17 +1,17 @@
 //Dependencies
 const express = require("express")
 const path = require("path");
-
 const app = express();
 
+//set up express app
 const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
-
 app.use(express.json());
 
-app.get("/", function(res, req){
-    res.sendFile(path.join(__dirname, ".output/team.html"));
+//display deployment
+app.get("/", function(req, res){
+    res.sendFile(path.join(__dirname, "./output/team.html"));
 })
 
 //listeners
