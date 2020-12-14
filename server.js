@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get("/", function(res, req){
-    res.sendFile(path.join(__dirname, "team.html"));
+    res.sendFile(path.join(__dirname, ".output/team.html"));
 })
 
 //listeners
