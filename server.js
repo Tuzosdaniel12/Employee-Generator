@@ -1,5 +1,6 @@
 //Dependencies
 const express = require("express")
+const exphbs = require('express-handlebars')
 const path = require("path");
 const app = express();
 
@@ -9,9 +10,13 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Set Handlebars as the default templating engine.
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
+
 //display deployment
 app.get("/", function(req, res){
-    res.sendFile(path.join(__dirname, "./output/team.html"));
+    res.render("team");
 })
 
 //listeners
